@@ -1,5 +1,5 @@
 # antiviral-resistance-evolution
-This study investigated antiviral resistance evolution in herpes simplex virus type 1 and aimed to establish a mild hypermutator strain to accelerate adaptive processes
+This study investigated antiviral resistance evolution in herpes simplex virus type 1 and aimed to establish a mild hypermutator strain to accelerate adaptive processes.
 
 Samples supposed to be included in this analysis should follow a certain labeling scheme: "genetic background", "selection", "passage" and "replicate" all in one line without space e.g. "wtACVPXXRep1". Populations samples were SNP called with LoFreq, therefore vcf files include "lofreq" in the filename e.g. "wtACVPXXRep1_lofreq.vcf.gz". Clonal samples were SNP called with BCFtools, therefore vcf files include "c" in the filename e.g. "wtGCVc1_c.vcf.gz".
 
