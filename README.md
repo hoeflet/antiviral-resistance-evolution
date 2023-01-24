@@ -5,7 +5,7 @@ Samples supposed to be included in this analysis should follow a certain labelin
 
 Folder sturcture is assumed as followed:
 
-vcf_analysis.ipynp
+vcf_analysis.ipynp\
 "folder name"
 -vcf_files
 --e.g. wtACVPXXRep1_lofreq.vcf.gz
