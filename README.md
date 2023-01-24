@@ -25,3 +25,6 @@ vcf_analysis.ipynp\
 --e.g. wtACVPXXRep1_S1_L001_R2_001.fastq.gz
 
 Regarding samplenames and location adjustment of scripts might be necessary
+
+
+NGS pipeline depends on Trimmomatic, BWA, Samtools/BCFtools and Lofreq.
