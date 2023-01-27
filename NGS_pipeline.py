@@ -22,7 +22,7 @@ depth_EGFP=[]
 depth_av=[]
 
 trimmoutput=""
-trimmomatic_options="ILLUMINACLIP:/home/hoeflet95/TruSeq3-PE.fa:2:30:10:2:keepBothReads LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36"
+trimmomatic_options="ILLUMINACLIP:/path/to/TruSeq3-PE.fa:2:30:10:2:keepBothReads LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36"
 
 for line in file:                                               #loading samplenames into samplename list
     samplename=line[:line.find("_R")]
