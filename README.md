@@ -22,7 +22,7 @@ vcf_analysis.ipynp\
 │   └── e.g. wtACVPXXRep1_cov_EGFP.txt          }\
 └── reads\
     ├── e.g. wtACVPXXRep1_S1_L001_R1_001.fastq.gz\
-    └── e.g. wtACVPXXRep1_S1_L001_R2_001.fastq.gz
+    └── e.g. wtACVPXXRep1_S1_L001_R2_001.fastq.gz\
 
 Regarding samplenames and location adjustment of scripts might be necessary
 
