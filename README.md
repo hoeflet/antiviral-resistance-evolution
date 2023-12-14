@@ -4,7 +4,7 @@ This study investigated antiviral resistance evolution in herpes simplex virus t
 Samples supposed to be included in this analysis should follow a certain labeling scheme: "genetic background", "selection", "passage" and "replicate" all in one line without space e.g. "wtACVPXXRep1". Populations samples were SNP called with LoFreq, therefore vcf files include "lofreq" in the filename e.g. "wtACVPXXRep1_lofreq.vcf.gz". Clonal samples were SNP called with BCFtools, therefore vcf files include "c" in the filename e.g. "wtGCVc1_c.vcf.gz".
 
 Folder sturcture is assumed as followed:
-
+"""
 vcf_analysis.ipynp\
 "folder name"\
 ├── vcf_files\
@@ -23,7 +23,7 @@ vcf_analysis.ipynp\
 └── reads\
     ├── e.g. wtACVPXXRep1_S1_L001_R1_001.fastq.gz\
     └── e.g. wtACVPXXRep1_S1_L001_R2_001.fastq.gz\
-
+"""
 Regarding samplenames and location adjustment of scripts might be necessary
 
 
